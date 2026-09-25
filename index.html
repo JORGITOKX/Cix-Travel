@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-           <a class="skip-link" href="#main">Saltar al contenido</a>
+      <a class="skip-link" href="#main">Saltar al contenido</a>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="/" aria-label="CIX TRAVEL inicio">
@@ -51,6 +51,7 @@
       <p class="section-lead">Seleccionamos experiencias únicas para todos los gustos: arqueología, gastronomía y playas.</p>
 
       <div class="cards">
+        
         <article class="card">
           <img src="img/piramides.jpg" alt="Tour a las pirámides" loading="lazy">
           <div class="card-body">
@@ -83,15 +84,23 @@
     <section class="section grid-two" aria-labelledby="info-title">
       <div>
         <h2 id="info-title">El Turismo en Lambayeque con CIX TRAVEL</h2>
-        <p>Bienvenido a nuestra plataforma. Encuentra los mejores tours y experiencias para recorrer la ciudad.
-          Nuestro equipo local diseña rutas seguras y auténticas para que vivas la cultura norteña.</p>
+        <p>Bienvenido a CIX TRAVEL, tu mejor opción para descubrir la riqueza cultural, histórica y natural de Lambayeque.
+          Ofrecemos experiencias turísticas diseñadas para que conozcas los principales atractivos de la región de una manera segura, cómoda y memorable.</p>
 
-        <p>Ofrecemos guías certificados, transporte cómodo y opciones personalizadas para familias, parejas y viajeros individuales.</p>
+        <p>En CIX TRAVEL creemos que cada viaje es una oportunidad para crear recuerdos inolvidables. Por ello, trabajamos para ofrecer paquetes turísticos accesibles, atención personalizada y actividades que se adapten a tus intereses y necesidades.</p>
       </div>
-
+      
       <aside class="side-image" aria-hidden="false">
-        <img src="imagen medio.webp" alt="Vista panorámica de Chiclayo" loading="lazy" width="400" height="250">
+        <img src="img/imagen medio.webp" alt="Vista panorámica de Chiclayo" loading="lazy" width="400" height="250">
       </aside>
+      <div class="beneficios">
+<div>✅ Guías turísticos certificados</div>
+<div>✅ Transporte seguro y cómodo</div>
+<div>✅ Atención personalizada</div>
+<div>✅ Destinos culturales y naturales</div>
+<div>✅ Precios accesibles</div>
+<div>✅ Experiencias inolvidables</div>
+</div>
     </section>
   <section id="hospedajes" class="section destacados">
         <h2 class="section-title">Hospedajes Recomendados</h2>
@@ -121,13 +130,101 @@
                 <div class="class-card-body">
                     <h3>WinMeier Hotel y Casino</h3>
                     <p>Porque una buena experiencia comienza donde eliges descansar.</p>
-                    <a class="btn btn-outline" href="#contacto">Ver Detalles</a>
+                    <a class="btn btn-outline" href="#contacto">Reservar</a>
                 </div>
             </article>
 
         </div>
     </section>
+
+    <section id="playas" class="section destacados">
+        <h2 class="section-title">Playas Imperdibles</h2>
+        <p class="class-lead">Disfruta del sol y la arena en los mejores destinos costeros de Lambayeque.</p>
+      
+        <div class="cards">
+            <article class="card">
+                <img src="img/img playas/pimentel.jpg" alt="Playa Pimentel" loading="lazy">
+                <div class="class-card-body">
+                    <h3>Playa Pimentel</h3>
+                    <p>Ideal para surfear y disfrutar de la gastronomía local.</p>
+                    <a href="#contacto" class="btn btn-outline">Explorar</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/img playas/media_luna.jpg" alt="Playa Pozo Negro" loading="lazy">
+                <div class="class-card-body">
+                    <h3>Playa Media Luna</h3>
+                    <p>Para Amantes de los paisajes panorámicos y exploración de rutas menos convencionales.</p>
+                    <a href="#contacto" class="btn btn-outline">Explorar</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/img playas/playa mosefu.jpg" alt="Playa Monsefú" loading="lazy">
+                <div class="class-card-body">
+                    <h3>Playa Monsefú</h3>
+                    <p>Conocida por su cultura y festividades tradicionales.</p>
+                    <a href="#contacto" class="btn btn-outline">Explorar</a>
+                </div>
+            </article>
+
+        </div>
   </main>
+
+  <section id="contacto" class="section contacto">
+    <div class="container contacto-container">
+
+        <div class="contacto-info">
+            <span class="badge">CIX TRAVEL</span>
+
+            <h2 class="section-title">Contáctanos</h2>
+
+            <p class="contacto-text">
+                ¿Tienes alguna pregunta sobre nuestros destinos turísticos?
+                Nuestro equipo está listo para ayudarte a planificar tu próxima aventura.
+            </p>
+
+            <div class="info-card">
+                <span>📍</span>
+                <div>
+                    <h4>Ubicación</h4>
+                    <p>Chiclayo, Perú</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <span>📧</span>
+                <div>
+                    <h4>Correo</h4>
+                    <p>cixtravel@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <span>📱</span>
+                <div>
+                    <h4>Teléfono</h4>
+                    <p>+51 995 259 777</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacto-formulario">
+            <form>
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <textarea placeholder="Escribe tu mensaje" rows="5"></textarea>
+
+                <button type="submit" class="btn btn-primary">
+                    Enviar mensaje
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <p>© 2026 CIX TRAVEL — Jorge. Todos los derechos reservados.</p>
