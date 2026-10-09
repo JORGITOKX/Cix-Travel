@@ -190,7 +190,7 @@ text-transform:uppercase;
 .card-body{padding:1rem;flex:1;display:flex;flex-direction:column;gap:.6rem}
 .card h3{margin:0;font-size:1.05rem}
 .card p{margin:0;color:var(--muted);flex:1}
-.card .btn-outline{align-self:flex-start;background:transparent;color:var(--color-primary);border-color:var(--color-primary)}
+.card .btn-outline{align-self:center;background:transparent;color:var(--color-primary);border-color:var(--color-primary)}
 
 .grid-two{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
 .side-image img{width:100%;height:auto;border-radius:10px;box-shadow:var(--shadow)}
